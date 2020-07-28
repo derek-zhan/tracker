@@ -19,7 +19,7 @@ const userSchema = new Schema({
         trim: true,
         minlength: 3
       },
-      email: {
+    email: {
         type: String,
         required: true,
         validate: [isEmail, 'invalid email'],
